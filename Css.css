@@ -1,0 +1,269 @@
+html {
+  background-image: url(https://phonoteka.org/uploads/posts/2022-01/1643147648_1-phonoteka-org-p-chernii-fon-dlya-saita-1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.table-size {
+  width: 70%;
+  text-align: left;
+  border: 0px solid white;
+}
+
+table {
+  width: 100%;
+  text-align: left;
+  border: 0px solid white;
+}
+
+th, td {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.0rem;
+  color: DarkTurquoise;height: 100%;
+  text-align: right;
+  border: 0px solid white;
+}
+
+.ColorInside {
+
+ background-color: rgba(34, 34, 34, 0.4);
+
+}
+
+body {
+  color: darkturquoise;
+  
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  
+}
+
+h3 {
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+}
+
+.my-button {
+  display: inline-block;
+  padding: 15px 30px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid #0b92aa;
+  border-radius: 5px;
+  color: #18a8c2;
+  background-color: #212022;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.photoo {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 410px;
+  border: 0px solid white;
+}
+
+@media screen and (max-width: 350px) { 
+  .portfolio_image{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10%;
+  height: auto;
+  border: 0px solid white;
+  
+}
+
+}
+
+.portfolio_image2{
+  position: absolute;
+  bottom: -370px;
+}
+
+.portfolio_image3{
+  position: absolute;
+  bottom: -370px;
+  right: 270px;
+}
+
+.portfolio_image4{
+  position: absolute;
+  bottom: -620px;
+  right: 500px;
+}
+
+.portfolio_image5{
+  position: absolute;
+  bottom: -620px;
+  right: 100px;
+}
+
+
+.empty-space {
+  height: 600px; 
+  background-color: #ffffff00; 
+}
+
+.empty-space2 {
+  height: 30px; 
+
+}
+
+pre {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 2.7rem;
+  font-weight: bold;
+  
+}
+
+p {
+  
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  
+}
+
+p1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 65px;
+  
+  height: 350px;
+  font-weight: bold
+}
+
+p2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  
+  height: 200px;
+
+}
+
+p3 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 32px;
+  
+  text-align: center; 
+  font-weight: bold
+}
+
+th {
+  text-indent: 30px;
+}
+
+ul {
+  list-style-type: square;
+  font-size:32px;
+  list-style-position: inside;
+  align-items: center;
+}
+
+footer {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ text-align: center;
+ position: fixed;
+ bottom: 0;
+ height: 3%;
+ width: 100%;
+}
+
+.switch {
+  position: absolute;
+  left: 83%;
+  display: inline-block;
+  width: 53px;
+  height: 24px;
+}
+
+.switch input {
+  display: none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: darkcyan;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 19px;
+  width: 20px;
+  left: 4px;
+  bottom: 2px;
+  background-color: rgb(255, 255, 255);
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+
+
+input:checked + .slider {
+  background-color: #494949;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #12a1ac;;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+.original-bg {
+  background-image: url("https://phonoteka.org/uploads/posts/2022-01/1643147648_1-phonoteka-org-p-chernii-fon-dlya-saita-1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.new-bg {
+  background-image: url("https://img.freepik.com/free-vector/white-abstract-background-design_23-2148825582.jpg?size=626&ext=jpg&ga=GA1.1.1222169770.1702252800&semt=ais");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
